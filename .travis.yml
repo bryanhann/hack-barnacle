@@ -13,4 +13,4 @@ python:
 # # command to run tests
 # script: nosetests
 install: "pip install pytest"
-script: "pytest barnacle.py"
+script: "py.test barnacle.py"
